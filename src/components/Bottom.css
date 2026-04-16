@@ -1,0 +1,25 @@
+.bottom-card{
+    width: 100%;
+    display: flex;
+    padding-top: 2rem;
+}
+
+.bottom-grid{
+    display: flex;
+    gap: 1rem;
+}
+.bottom-grid img{
+    width: 100%;
+}
+
+.bottom-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.bottom-text span{
+    font-size: 2.5rem;
+    color: var(--Softred);
+    font-weight: 500;
+}

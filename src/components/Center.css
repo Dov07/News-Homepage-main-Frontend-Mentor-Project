@@ -1,0 +1,124 @@
+.middle-card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.left-grid{
+    flex: 4;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.right-grid{
+    flex: 1.5;
+    width: auto;
+    height: auto;
+    background-color: var(--Verydarkblue) ;
+    padding: 1.4rem;
+    color: var(--Offwhite);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.top-side{
+    width: 100%;
+    height: auto;
+}
+
+.top-side img{
+    width: 100%;
+    height: auto;
+}
+
+.bottom-side{
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+}
+.bottom-left-side{
+    flex: 1.4;
+   padding-top: 1rem;
+  
+}
+.bottom-left-side h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+.bottom-right-side{
+    
+    flex:1;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+
+}
+
+.bottom-right-side p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.4rem;
+    color: var(--Darkgrayishblue);
+}
+
+.bottom-right-side button{
+    width: 12rem;
+    height: auto;
+    background-color: var(--Softred);
+
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0.6rem 1rem;
+    letter-spacing: 0.4rem;
+    border: none;
+}
+.bottom-right-side button:hover{
+    background-color: var(--Verydarkblue);
+    color: var(--Offwhite);
+    cursor: pointer;
+}
+
+/* Right card css -Right Grid-  */
+
+.r-head h1{
+    color: var(--Softorange);
+    font-size: 3rem;
+}
+
+.r-title-desc {
+    border-bottom: 1px solid var(--Darkgrayishblue);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 0rem;
+}
+.r-title-desc:last-child{
+ border: none
+}
+
+.r-title-desc a{
+    text-decoration: none;
+    color: inherit;
+}
+.r-title-desc h2{
+    font-size: 1.3rem;
+}
+.r-title-desc h2:hover{
+    color: var(--Softred);
+    cursor: pointer;
+}
+
+.r-title-desc p{
+    font-size: 1rem;
+    color: var(--Grayishblue);
+}

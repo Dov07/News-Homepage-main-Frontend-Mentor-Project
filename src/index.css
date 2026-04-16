@@ -1,0 +1,36 @@
+:root{
+
+
+--Softorange: hsl(35, 77%, 62%);
+--Softred: hsl(5, 85%, 63%);
+--Offwhite: hsl(36, 100%, 99%);
+--Grayishblue: hsl(233, 8%, 79%);
+--Darkgrayishblue: hsl(236, 13%, 42%);
+--Verydarkblue: hsl(240, 100%, 5%);;
+
+}
+
+@font-face {
+  font-family: 'Inter' ;
+  src: url('/src/assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+  font-weight: 100 900; /* Tüm ağırlık aralığını kapsar */
+  font-style: normal;
+}
+
+body{
+  font-family: 'Inter', 'sans-serif';
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.card{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  border: 1px solid var(--Grayishblue);
+  
+}

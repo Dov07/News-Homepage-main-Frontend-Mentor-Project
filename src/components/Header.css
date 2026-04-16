@@ -1,0 +1,24 @@
+.header{
+    width: 100%;
+    height: 10rem;
+    align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+nav{
+    width: 40%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+   
+    list-style: none;
+    
+}
+.nav-item a{
+    font-size: 100%;
+    text-decoration: none;
+    color: var(--Darkgrayishblue);
+}
