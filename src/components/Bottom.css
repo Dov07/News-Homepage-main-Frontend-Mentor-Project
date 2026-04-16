@@ -1,7 +1,9 @@
 .bottom-card{
     width: 100%;
     display: flex;
+    gap: 1rem;
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .bottom-grid{
@@ -10,16 +12,31 @@
 }
 .bottom-grid img{
     width: 100%;
+    height: auto;
 }
 
 .bottom-text{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    display: grid;
+    gap: 1rem;
+    
 }
 
 .bottom-text span{
     font-size: 2.5rem;
     color: var(--Softred);
     font-weight: 500;
+}
+.bottom-text h3{
+    font-weight: 900;
+    font-size: 1.1rem;
+
+}
+.bottom-text h3:hover{
+  color: var(--Softred);
+    cursor: pointer;
+}
+.bottom-text p{
+    font-size: 15px;
+    color: var(--Darkgrayishblue);
+    line-height: 1.5rem;
 }

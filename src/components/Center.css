@@ -78,9 +78,10 @@
     font-weight: 700;
     font-size: 1rem;
     text-transform: uppercase;
-    padding: 0.6rem 1rem;
+    padding: 0.9rem 1rem;
     letter-spacing: 0.4rem;
     border: none;
+  transition: all 0.3s ease;
 }
 .bottom-right-side button:hover{
     background-color: var(--Verydarkblue);
