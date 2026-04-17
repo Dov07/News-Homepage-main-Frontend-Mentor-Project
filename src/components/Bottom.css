@@ -40,3 +40,15 @@
     color: var(--Darkgrayishblue);
     line-height: 1.5rem;
 }
+
+@media (max-width: 768px) {
+
+    .bottom-card{
+    display: grid;
+    }
+
+    
+.bottom-grid img{
+    width: 8rem;
+}
+}

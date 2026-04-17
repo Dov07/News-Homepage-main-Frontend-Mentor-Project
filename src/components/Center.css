@@ -123,3 +123,21 @@
     font-size: 1rem;
     color: var(--Grayishblue);
 }
+
+@media (max-width: 768px) {
+   .middle-card {
+    display: grid;
+    gap: 2rem;
+   }
+   .left-grid{
+    display: grid;
+   }
+   .bottom-side{
+    width: 100%;
+    display: block;
+    
+   }
+   .bottom-left-side h1{
+        font-size: 3.5rem;
+   }
+}
